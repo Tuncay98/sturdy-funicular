@@ -1,0 +1,476 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=League+Spartan:wght@500&family=Nunito:wght@300;400&family=Open+Sans:ital,wght@0,400;1,800&family=Poppins:ital,wght@0,500;1,300&family=Roboto:wght@100;400&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=League+Spartan:wght@500&family=Nunito:wght@300;400&family=Open+Sans:ital,wght@0,400;1,800&family=Poppins:ital,wght@0,500;1,300&family=Roboto:wght@100;400&display=swap"
+    rel="stylesheet">
+  <link rel='stylesheet' id='creote-fonts-css'
+    href='https://fonts.googleapis.com/css?family=Spartan%3A400%2C500%2C600%2C700%2C800%2C900%7CInter%3A300%2C400%2C500%2C600%2C700%2C800%2C900&#038;subset=latin%2Clatin-ext'
+    type='text/css' media='all' />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <style>
+    .main {
+      width: 100%;
+      height: 900px;
+      background-image: url('banner1.jpg');
+      background-size: cover;
+    }
+
+    .logo {
+      width: 200px;
+    }
+
+    .navbar ul li a {
+      font-family: Spartan;
+      font-weight: bold;
+      color: white;
+    }
+
+    .get {
+      font-family: Spartan;
+      font-weight: bold;
+      width: 180px;
+      height: 60px;
+      border: none;
+      outline: none;
+      background-color: #078586;
+      color: white;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    .lupa {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    .content {
+      margin-top: 200px;
+      text-align: center;
+    }
+
+    .content_h1 {
+      color: white;
+      font-family: Spartan;
+      font-size: 45px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .content_h {
+      color: white;
+      font-family: Spartan;
+      font-size: 60px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .about {
+      background-color: #078586;
+      color: white;
+      width: 200px;
+      height: 60px;
+      font-size: 16px;
+      font-family: Spartan;
+      font-weight: bold;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+
+    .contact {
+      background: none;
+      color: white;
+      width: 200px;
+      height: 60px;
+      font-size: 16px;
+      font-family: Spartan;
+      font-weight: bold;
+      outline: none;
+      border: 3px solid white;
+      border-radius: 10px;
+      transition: all 0.5s;
+    }
+
+    .contact:hover {
+      background-color: #078586;
+      border: none;
+    }
+
+    .steps {
+      height: 600px;
+      background-color: white;
+    }
+
+    .the {
+      color: #078586;
+      font-weight: bold;
+      font-family: Spartan;
+      font-size: 22px;
+      text-align: center;
+      text-decoration: underline;
+      margin-top: 70px;
+
+    }
+
+    .rec {
+      color: #282f3b;
+      margin-top: 10px;
+      text-align: center;
+      font-size: 35px;
+      font-family: Spartan;
+      font-weight: bold;
+
+    }
+
+    .rec2 {
+      font-family: Spartan;
+      color: gray;
+      font-size: 18px;
+      text-align: center;
+
+    }
+
+    .icon1 {
+      width: 70px;
+    }
+
+    .iden {
+      color: #282f3b;
+      font-weight: bold;
+      font-size: 25px;
+      font-family: Spartan;
+      margin-top: 10px;
+    }
+
+    .idenp {
+      color: #4a4e56;
+      font-family: Spartan;
+      text-align: center;
+      text-align: justify;
+    }
+
+    .fon {
+      border: 2px solid #ebebee;
+      background-color: #f9fafd;
+      padding: 15px;
+      margin-top: 15px;
+    }
+
+    .navbar-toggler {
+      background-color: white;
+      color: green;
+    }
+
+    @media(max-width: 768px) {
+      .about {
+        margin-right: 0px;
+        margin-bottom: 15px;
+      }
+    }
+
+    .sahe3 {
+      background-color: #eef3f9;
+      height: 600px;
+    }
+
+    .dedicated {
+      font-family: Spartan;
+      font-weight: bold;
+      margin-top: 50px;
+      text-decoration: underline;
+      color: #078586;
+    }
+
+    .per {
+      color: #078586;
+      font-family: Spartan;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-left: 10px;
+      font-size: 40px;
+
+    }
+
+    .income {
+      margin-top: 5px;
+      margin-left: 10px;
+      font-family: Spartan;
+      font-size: #282f3b;
+      font-weight: bold;
+      font-size: 25px;
+    }
+
+    .download {
+      font-family: Spartan;
+      font-weight: bold;
+      width: 180px;
+      height: 60px;
+      border: none;
+      outline: none;
+      background-color: #078586;
+      color: white;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    .sekil {
+      width: 200px;
+      height: 200px;
+
+
+    }
+
+    .pro {
+
+      font-family: Spartan;
+      color: #282f3b;
+      font-weight: bold;
+    }
+
+    .intext {
+      font-family: Spartan;
+      color: gray;
+      font-weight: bold;
+      font-size: 16px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+
+    }
+
+    .indi {
+      font-family: Spartan;
+      color: gray;
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    .since {
+      color: #282f3b;
+      font-family: Spartan;
+      font-weight: bold;
+      padding-left: 20px;
+
+    }
+
+    .parent {
+      width: 100%;
+      height: 500px;
+      position: relative;
+    }
+
+    .parent_img {
+      width: 100%;
+      height: 500px;
+      position: absolute;
+      object-fit: cover;
+      z-index: 2;
+      margin-left: 30px;
+
+    }
+
+    .child1 {
+      width: 350px;
+      height: 70px;
+      background-color: #078586;
+      position: absolute;
+      top: 30px;
+      color: white;
+      font-family: Spartan;
+      font-weight: bold;
+      font-size: 24px;
+      padding-top: 18px;
+      text-align: center;
+      z-index: 3;
+
+    }
+
+    .child2 {
+      width: 350px;
+      height: 50px;
+      background-color: #078586;
+      position: absolute;
+      top: 100.1px;
+      color: white;
+      font-family: Spartan;
+      font-weight: bold;
+      z-index: 1;
+      padding-top: 18px;
+      text-align: center;
+      transform: skew(45deg);
+      left: 25.5;
+
+    }
+  </style>
+
+  <div class="main">
+    <nav class="navbar navbar-expand-md">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#"><img
+          src="https://themepanthers.com/wp/creote/v-new/wp-content/uploads/2021/10/logo-white-1.png" class="logo">
+      </a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="fa-solid fa-bars"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ana sehife</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Haqqinda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Layiheler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Xidmetler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Elaqe</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa-solid fa-magnifying-glass lupa"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <button class="get">Get Quote</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="content">
+      <h1 class="content_h1">Web Developer</h1>
+      <h1 class="content_h animate__animated animate__backInLeft">Tuncay Nesibli</h1>
+      <button class="about">About Me</button>
+      <button class="contact">Contact Us</button>
+
+    </div>
+
+  </div>
+  <div class="steps">
+    <h2 class="the">The steps of</h2>
+    <h1 class="rec">Recruiment Process</h1>
+    <p class="rec2">Keep rising employee health care costs down. An employer's total benefit costs<br>
+      can be as much as 40 percent of the company's operating budget.</p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 fon">
+          <img
+            src="https://themepanthers.com/wp/creote/v-new/wp-content/plugins/creote-addons/assets/images/010-job-search.png"
+            class="icon1">
+          <h3 class="iden">Identifing The Needs </h3>
+          <p lass="idenp">The less water you use, the less runoff and wastewater that eventually end up in the ocean.
+          </p>
+        </div>
+        <div class="col-md-3 fon">
+          <img src="https://themepanthers.com/wp/creote/v-new/wp-content/uploads/2021/10/process-icon-im-1.png"
+            class="icon1">
+          <h3 class="iden">Identifing The Needs </h3>
+          <p lass="idenp">The less water you use, the less runoff and wastewater that eventually end up in the ocean.
+          </p>
+        </div>
+        <div class="col-md-3 fon">
+          <img src="https://themepanthers.com/wp/creote/v-new/wp-content/uploads/2021/10/service-ico-2.png"
+            class="icon1">
+          <h3 class="iden">Identifing The Needs </h3>
+          <p lass="idenp">The less water you use, the less runoff and wastewater that eventually end up in the ocean.
+          </p>
+        </div>
+        <div class="col-md-3 fon">
+          <img src="https://themepanthers.com/wp/creote/v-new/wp-content/uploads/2021/10/fun-2.png" class="icon1">
+          <h3 class="iden">Identifing The Needs </h3>
+          <p lass="idenp">The less water you use, the less runoff and wastewater that eventually end up in the ocean.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sahe3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+
+          <h3 class="dedicated">Dedicated Team</h3>
+          <h1 class="pro">Professional Individuals</h1>
+          <p class="indi">Our power of choice is untrammelled and when nothing prevents being able to do what we like
+            best every pleasure.</p>
+
+          <div class="d-flex">
+            <div><img src="https://i.imgur.com/rOKpHrV.png" class="sekil"></div>
+
+            <div>
+              <h3 class="per">84%</h3>
+              <h5 class="income">Income Statement</h5>
+              <p class="intext">Certain circumstances seds owing to the claims duty righteous indignation and so
+                beguiled.</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div><button class=download>Download</button></div>
+            <div>
+              <img src="https://themepanthers.com/wp/creote/v-new/wp-content/uploads/2021/10/cuntry-1.png" class="ml-4">
+
+            </div>
+
+            <div class="since">Since 1998.<br> Operating in Birmingham</div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+
+          <div class="parent"><img
+              src="https://themepanthers.com/wp/creote/v-new/wp-content/uploads/2021/10/about-hm-3-2.jpg"
+              class="parent_img">
+            <div class="child1">25+ Years of Experience</div>
+            <div class="child2"></div>
+
+          </div>
+
+
+        </div>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<html>
+    <head></head>
+    <body>
+     <style>
+        .body{
+            background-color: #f6f6f7;
+        }
+        .kvadrat{
+            width: 30%;
+            height: 300px;
+            background-color: white;
+            margin-left: 3%;
+            margin-top: 100px;
+            text-align: center;
+            transition: all 0.5s;
+            display: inline-block
+        }
+        .sekil{
+            width: 130px;
+            margin-top: 20px;
+            transition: all 0.5s;
+        }
+        .kvadrat:hover{
+            border-bottom: 3px solid #76a817;
+            -webkit-box-shadow: 3px 3px 11px 9px rgba(0,0,0,0.79); 
+box-shadow: 3px 3px 11px 9px rgba(0,0,0,0.79);
+        }
+        .kvadrat:hover .sekil{
+        transform: scaleX(-1);
+        }
+        .h3{
+            font-weight: bold;
+            color: black;
+            font-size: 16px;
+        }
+        .p3{
+            color: black;
+            font-size: 16px;  
+        }
+        .a{
+            text-decoration: none;
+            color: #76a817;
+            font-weight: bold;
+        }
+        @media(max-width:800px){
+            .kvadrat{
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+     </style>
+     
+     <div class="kvadrat"><img src="https://softmagical.com/karkas/yem.png" class="sekil">
+        <h3 class="h3">Heyvan yemlerinin istehsali</h3>
+        <p class="p3">Şirkətimiz maldarlıq üçün heyvan yemlərinin hazırlanması ilə məşğuldur.</p>
+        <a class="a">Mehsullara Bax</a>
+    </div>
+
+    <div class="kvadrat"><img src="https://cdn-icons-png.flaticon.com/512/3227/3227673.png" class="sekil">
+        <h3 class="h3">Heyvan yemlerinin istehsali</h3>
+        <p class="p3">Şirkətimiz maldarlıq üçün heyvan yemlərinin hazırlanması ilə məşğuldur.</p>
+        <a class="a">Mehsullara Bax</a>
+    </div>
+    <div class="kvadrat"><img src="https://cdn-icons-png.flaticon.com/512/2933/2933469.png" class="sekil">
+        <h3 class="h3">Heyvan yemlerinin istehsali</h3>
+        <p class="p3">Şirkətimiz maldarlıq üçün heyvan yemlərinin hazırlanması ilə məşğuldur.</p>
+        <a class="a">Mehsullara Bax</a>
+    </div>
+
+     
+    </body>
+</html>
